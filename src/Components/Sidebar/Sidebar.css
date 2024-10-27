@@ -47,5 +47,12 @@
     justify-content: center;
 }
 .small-sidebar .side-link p{
-    font-size: 12px;
+    display: none;
+}
+.small-sidebar h3{
+    display: none;
+}
+.small-sidebar hr{
+    width: 20px;
+    margin-bottom: 25px;
 }

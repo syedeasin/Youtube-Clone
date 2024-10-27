@@ -10,6 +10,10 @@ import music from '../../assets/music.png'
 import blog from '../../assets/blogs.png'
 import news from '../../assets/news.png'
 import jack from '../../assets/jack.png'
+import gerard from '../../assets/gerard.png'
+import megan from '../../assets/megan.png'
+import tom from '../../assets/tom.png'
+import simon from '../../assets/simon.png'
 
 const Sidebar = ({sidebar}) => {
     return (
@@ -61,19 +65,19 @@ const Sidebar = ({sidebar}) => {
                         <p>Jamuna News</p>
                     </div>
                     <div className="side-link">
-                        <img src={jack} alt="news Icon"/>
-                        <p>Codengier</p>
+                        <img src={gerard} alt="news Icon"/>
+                        <p>Gerard Code</p>
                     </div>
                     <div className="side-link">
-                        <img src={jack} alt="news Icon"/>
+                        <img src={simon} alt="news Icon"/>
                         <p>Bike Bd</p>
                     </div>
                     <div className="side-link">
-                        <img src={jack} alt="news Icon"/>
+                        <img src={tom} alt="news Icon"/>
                         <p>Channel 24</p>
                     </div>
                     <div className="side-link">
-                        <img src={jack} alt="news Icon"/>
+                        <img src={megan} alt="megan Icon"/>
                         <p>Coder Trust</p>
                     </div>
                 </div>

@@ -1,13 +1,16 @@
 import React from 'react';
 import './Home.css'
 import Sidebar from "../../Components/Sidebar/Sidebar.jsx";
-import home from '../../assets/home.png';
+import Feed from "../../Components/Feed/Feed.jsx";
 
 
 const Home = ({sidebar}) => {
     return (
         <>
             <Sidebar sidebar={sidebar}/>
+            <div className={`container ${sidebar?"":"large-container"}`}>
+                <Feed />
+            </div>
         </>
     );
 };
